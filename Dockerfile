@@ -21,7 +21,7 @@
 
 FROM alpine:latest
 
-LABEL maintainer="dmuth@dmuth.org"
+LABEL maintainer="robin@robinkanters.nl"
 
 #
 # According to https://github.com/laradock/laradock/issues/1164#issuecomment-343484685, 

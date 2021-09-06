@@ -18,6 +18,7 @@ cat options.ini.IN | sed \
 	-e "s/%OWNER_ID%/$OWNER_ID/" \
 	-e "s/%TEXT_CHANNEL%/$TEXT_CHANNEL/" \
 	-e "s/%VOICE_CHANNEL%/$VOICE_CHANNEL/" \
+	-e "s/%CMD_PREFIX%/$CMD_PREFIX/" \
 	> options.ini
 
 if test "$GRANT_TO_ROLES"
