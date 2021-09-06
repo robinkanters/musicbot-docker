@@ -55,12 +55,7 @@ AutojoinChannels = %VOICE_CHANNEL%
 
 [MusicBot]
 ; The starting volume of the bot.  You can use any value from 0.01 to 1.0 but 0.15 is probably fine
-;DefaultVolume = 0.15
-
-;
-; This can be between 0 and 1.  0.15 is the default. (ugh)
-;
-DefaultVolume = 0.75
+DefaultVolume = 0.25
 
 
 ; Only allow whitelisted users to use commands
@@ -84,7 +79,7 @@ NowPlayingMentions = yes
 AutoSummon = yes
 
 ; Play random songs when nothing is queued.
-UseAutoPlaylist = yes
+UseAutoPlaylist = no
 
 ; When no one else is in the voice channel, pause the music, and resume when someone joins again.
 AutoPause = yes
