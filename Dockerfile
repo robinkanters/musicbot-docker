@@ -32,12 +32,7 @@ RUN apk add --update wget unzip libcurl \
 	#
 	# Musicbot dependencies
 	#
-	&& apk add python3 python3-dev ffmpeg opus-dev \
-	#
-	# Download and install pip
-	#
-	&& wget https://bootstrap.pypa.io/get-pip.py && python3 ./get-pip.py \
-	&& python3 ./get-pip.py \
+	&& apk add python3 python3-dev py3-pip ffmpeg opus-dev \
 	#
 	# Compilation for the pip install command
 	#
