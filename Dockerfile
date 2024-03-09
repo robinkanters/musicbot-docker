@@ -54,7 +54,7 @@ RUN apk add --update wget unzip libcurl \
 	#
 	# ...can take awhile! Took like 2 minutes on my iMac.
 	#
-	&& python3 -m pip install -U -r /var/Musicbot/requirements.txt \
+	&& python3 -m pip install --break-system-packages -U -r /var/Musicbot/requirements.txt \
 	#
 	# For our entrypoint script
 	#
