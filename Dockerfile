@@ -44,7 +44,7 @@ RUN apk add --update wget unzip libcurl \
 	#
 	# Clone the master branch of the codebase
 	#
-	&& git clone -b review --single-branch https://github.com/robinkanters/MusicBot.git /var/Musicbot \
+	&& git clone -b master --single-branch https://github.com/robinkanters/MusicBot.git /var/Musicbot \
 	#
 	# Install modules in Python
 	#
